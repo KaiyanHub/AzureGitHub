@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: self-owned
+  vmImage: INSTKAIYANWIN10
 
 steps:
 - script: echo Hello, world!
