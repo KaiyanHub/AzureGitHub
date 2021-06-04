@@ -6,7 +6,7 @@
 trigger:
 - master
 
-pool: "self-owned"
+pool: 'self-owned'
 
 steps:
 - script: echo Hello, Self!
