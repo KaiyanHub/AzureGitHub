@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: INSTZHANGK2019
+  vmImage: self-owned
 
 steps:
 - script: echo Hello, world!
