@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: INSTKAIYANWIN10
+  vmImage: INSTZHANGK2019
 
 steps:
 - script: echo Hello, world!
