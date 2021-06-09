@@ -18,4 +18,5 @@ steps:
   displayName: 'Run a multi-line script'
 - task: CmdLine@2
   inputs:
-    script: 'notepad'
+    script: 'powershell.exe -file "c:\autoinstall\InstallandTest.ps1"
+'
