@@ -19,4 +19,4 @@ steps:
   displayName: 'Run a multi-line script'
 - task: CmdLine@2
   inputs:
-    script: powershell.exe -file "c:\autoinstall\InstallandTest.ps1"
+    script: del "C:\autoinstall\email - Copy.html"
