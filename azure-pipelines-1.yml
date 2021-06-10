@@ -10,7 +10,7 @@ pool: 'self-owned'
 name: "INSTZHANGK2019"
 
 steps:
-- script: echo Hello, Self!
+- script: echo Hello!
   displayName: 'Run a one-line script'
 
 - script: |
