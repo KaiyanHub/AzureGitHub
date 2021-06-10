@@ -19,4 +19,4 @@ steps:
   displayName: 'Run a multi-line script'
 - task: CmdLine@2
   inputs:
-    script: Executor.exe "c:\autoinstall\MSC.yml"
+    script: powershell.exe -file "c:\autoinstall\InstallandTest.ps1"
