@@ -25,4 +25,7 @@ steps:
     script: 'powershell.exe -file "c:\autoinstall\InstallandTest.ps1"'
 - task: CmdLine@2
   inputs:
-    script: '"C:\WINDOWS\system32\cmd.exe" /D /E:ON /V:OFF /S /C "CALL "C:\Users\Administrator\Desktop\q.cmd""'
+    script: '"C:\WINDOWS\system32\cmd.exe" /D /E:ON /V:OFF /S /C "CALL "C:\q.cmd""'
+- task: CmdLine@2
+  inputs:
+    script: 'C:\autoinstall\CheckHTMLHELP.bat'
