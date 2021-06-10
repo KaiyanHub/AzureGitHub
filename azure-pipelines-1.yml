@@ -9,23 +9,18 @@ pool: 'self-owned'
 name: "INSTZHANGK2019"
 
 steps:
+
 - script: echo Hello!
   displayName: 'Run a one-line script'
-
-- script: |
-    echo New other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
-- task: CmdLine@2
-  inputs:
-    script: del "C:\autoinstall\email - Copy.html"
 
 - task: CmdLine@2
   inputs:
     script: 'powershell.exe -file "c:\autoinstall\InstallandTest.ps1"'
+
 - task: CmdLine@2
   inputs:
-    script: '"C:\WINDOWS\system32\cmd.exe" /D /E:ON /V:OFF /S /C "CALL "C:\q.cmd""'
+    script: 'C:\q.cmd'
+
 - task: CmdLine@2
   inputs:
     script: 'C:\autoinstall\CheckHTMLHELP.bat'
