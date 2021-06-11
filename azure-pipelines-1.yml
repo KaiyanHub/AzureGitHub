@@ -17,9 +17,6 @@ steps:
   inputs:
     script: 'powershell.exe -file "c:\autoinstall\InstallandTest.ps1"'
 
-- task: CmdLine@2
-  inputs:
-    script: '"C:\q.cmd"'
 
 - task: CmdLine@2
   inputs:
