@@ -19,7 +19,7 @@ steps:
 
 - task: CmdLine@2
   inputs:
-    script: 'C:\q.cmd'
+    script: '"C:\q.cmd"'
 
 - task: CmdLine@2
   inputs:
